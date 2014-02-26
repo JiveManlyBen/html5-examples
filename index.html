@@ -63,7 +63,11 @@
 <h3>
 <a name="references" class="anchor" href="#references"><span class="octicon octicon-link"></span></a>Structure Tags</h3>
 
-<p>structure tags: article, section, header, footer, aside, nav, and figure; rather than divs everywhere</p>
+<p>Generic <code>div</code> elements are usually used to structure content on a page. HTML5 introduces semantic elements that more accurately describe the content in the element.</p>
+
+<p></p>
+
+<p>The header <code>section</code> element defines a page header and typically contains the site name, logo, and the site's navigation. The <code>nav</code> section element contains the navigational links for the page.  There can be several nav sections in one page. The <code>footer</code> section element defines the page's footer and typically contains things like a copyright and legal notice. An <code>aside</code> section element defines a section that doesn't belong to the main flow (ex: information boxes and advertisements).</p>
 
 <h3>
 <a name="input-required" class="anchor" href="#input-required"><span class="octicon octicon-link"></span></a>Required Input Attribute</h3>
@@ -100,22 +104,22 @@
 <p>HTML5 introduces a new set of possible type attributes for the input element. The new values for type include color, date, datetime, datetime-local, email, month, number, range, search, tel, time, url, and week.</p>
 
 <p>date</p>
-<input type="date" name="start_date" />
+<pre><code>&lt;input type="date" name="start_date" /&gt;</code></pre>
 
 <p>email</p>
-<input type="email" name="email" />
+<pre><code>&lt;input type="email" name="email" /&gt;</code></pre>
 
 <p>number</p>
-<input type="number" name="order_id" min="1" max="9999999" />
+<pre><code>&lt;input type="number" name="order_id" min="1" max="9999999" /&gt;</code></pre>
 
 <p>range</p>
-<input type="range" name"speed" min="0" max="260" step="10" />
+<pre><code>&lt;input type="range" name"speed" min="0" max="260" step="10" /&gt;</code></pre>
 
 <p>tel</p>
-<input type="tel" name"phone_number" />
+<pre><code>&lt;input type="tel" name"phone_number" /&gt;</code></pre>
 
 <p>url</p>
-<input type="url" name="home_page" />
+<pre><code>&lt;input type="url" name="home_page" /&gt;</code></pre>
 
 <h3>
 <a name="tools" class="anchor" href="#tools"><span class="octicon octicon-link"></span></a>Tools</h3>
@@ -134,8 +138,7 @@
 <li><a href="http://www.whatwg.org/" target="_blank">WHATWG</a></li>
 <li><a href="http://www.w3.org/TR/html5/" target="_blank">HTML5 on W3C</a></li>
 <li><a href="http://diveintohtml5.info/" target="_blank">Dive into HTML5</a></li>
-<li><a href="" target="_blank"></a></li>
-<li><a href="" target="_blank"></a></li>
+<li><a href="http://html5doctor.com/" target="_blank">HTML5 Doctor</a></li>
 </ul>
 
       </section>
