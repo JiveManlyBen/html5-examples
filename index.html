@@ -63,11 +63,11 @@
 <h3>
 <a name="references" class="anchor" href="#references"><span class="octicon octicon-link"></span></a>Structure Tags</h3>
 
-<p>Generic <code>div</code> elements are usually used to structure content on a page. HTML5 introduces semantic elements that more accurately describe the content in the element.</p>
+<p>Generic <code>div</code> elements are usually used to structure content on a page. HTML5 introduces semantic elements that more accurately describe the content in the element. Div elements can still be used when no other suitable element exists or when an element is needed only for styling purposes or as a convenience for scripting.</p>
 
-<p></p>
+<p>The <code>article</code> element describes a self-contained composition in a document. The article element could be used for a magazine article, news story, blog entry, or any other independent item of content. The <code>section</code> should be used for a generic document or application section. Each section should be identified with a heading (h1-h6) element.</p>
 
-<p>The header <code>section</code> element defines a page header and typically contains the site name, logo, and the site's navigation. The <code>nav</code> section element contains the navigational links for the page.  There can be several nav sections in one page. The <code>footer</code> section element defines the page's footer and typically contains things like a copyright and legal notice. An <code>aside</code> section element defines a section that doesn't belong to the main flow (ex: information boxes and advertisements).</p>
+<p>The <code>header</code> section element defines a page header and typically contains the site name, logo, and the site's navigation. The <code>nav</code> section element contains the navigational links for the page.  There can be several nav sections in one page. The <code>footer</code> section element defines the page's footer and typically contains things like a copyright and legal notice. An <code>aside</code> section element defines a section that doesn't belong to the main flow (ex: information boxes and advertisements).</p>
 
 <h3>
 <a name="input-required" class="anchor" href="#input-required"><span class="octicon octicon-link"></span></a>Required Input Attribute</h3>
@@ -101,12 +101,12 @@
 <h3>
 <a name="" class="anchor" href="#"><span class="octicon octicon-link"></span></a>New Input Types</h3>
 
-<p>HTML5 introduces a new set of possible type attributes for the input element. The new values for type include color, date, datetime, datetime-local, email, month, number, range, search, tel, time, url, and week.</p>
+<p>HTML5 introduces a new set of possible type attributes for the input element. The new values for type include color, date, datetime, datetime-local, email, month, number, range, search, tel, time, url, and week. You can read more about these new input types <a href="http://html5doctor.com/html5-forms-input-types/" target="_blank">here</a>.</p>
 
-<p>date</p>
-<pre><code>&lt;input type="date" name="start_date" /&gt;</code></pre>
+<p>The date input works similarly to date pickers that use JavaScript. The date type brings date picker controls and even supports minimum and maximum values.</p>
+<pre><code>&lt;input type="date" name="start_date" min="2014-12-01" max="2014-12-31" /&gt;</code></pre>
 
-<p>email</p>
+<p>The email input type does basic validation for email addresses and also supports multiple email addresses when used with the multiple attribute.</p>
 <pre><code>&lt;input type="email" name="email" /&gt;</code></pre>
 
 <p>number</p>
@@ -128,6 +128,7 @@
 <li><a href="http://html5boilerplate.com/" target="_blank">HTML5 Boilerplate</a></li>
 <li><a href="http://www.iwanttouse.com/" target="_blank">I want to use</a></li>
 <li><a href="http://modernizr.com/" target="_blank">Modernizr</a></li>
+<li><a href="http://html5test.com/" target="_blank">HTML5test</a></li>
 </ul>
 
 <h3>
