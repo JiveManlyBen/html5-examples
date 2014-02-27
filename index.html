@@ -99,7 +99,7 @@
 <p>Only one form control in a document can have the autofocus attribute and the autofocus attribute cannot be applied if the type of the input is hidden.</p>
 
 <h3>
-<a name="" class="anchor" href="#"><span class="octicon octicon-link"></span></a>New Input Types</h3>
+<a name="input-types" class="anchor" href="#input-types"><span class="octicon octicon-link"></span></a>New Input Types</h3>
 
 <p>HTML5 introduces a new set of possible type attributes for the input element. The new values for type include color, date, datetime, datetime-local, email, month, number, range, search, tel, time, url, and week. You can read more about these new input types <a href="http://html5doctor.com/html5-forms-input-types/" target="_blank">here</a>.</p>
 
@@ -109,16 +109,16 @@
 <p>The email input type does basic validation for email addresses and also supports multiple email addresses when used with the multiple attribute.</p>
 <pre><code>&lt;input type="email" name="email" /&gt;</code></pre>
 
-<p>number</p>
+<p>The number input type adds controls increment and decrement the value that is entered.  This value can also be limited by with min and max values and the step can change the increment value.</p>
 <pre><code>&lt;input type="number" name="order_id" min="1" max="9999999" /&gt;</code></pre>
 
-<p>range</p>
-<pre><code>&lt;input type="range" name"speed" min="0" max="260" step="10" /&gt;</code></pre>
+<p>The range input type is similar to number type, but is useful for when a numeric value is within a given range and does not need an exact value. Browsers render simple slider controls rather than an input box.</p>
+<pre><code>&lt;input type="range" name"speed" min="0" max="260" /&gt;</code></pre>
 
-<p>tel</p>
+<p>The tel input type is for telephone numbers.</p>
 <pre><code>&lt;input type="tel" name"phone_number" /&gt;</code></pre>
 
-<p>url</p>
+<p>The url input type is for web addresses. Browsers do simple validation on this type. If the multiple attribute is used, multiple web addresses can be entered.</p>
 <pre><code>&lt;input type="url" name="home_page" /&gt;</code></pre>
 
 <h3>
