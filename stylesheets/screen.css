@@ -567,3 +567,34 @@ dd p:first-child {
   font-size: .85em;
   font-style: italic;
 }
+
+.cc_label {
+  width: 120px;
+  display: inline-block;
+  text-align: end;
+  padding-right: 10px;
+}
+
+.cc_field_small {
+  width: 60px;
+}
+
+.cc_field_medium {
+  width: 140px;
+}
+
+.cc_field_large {
+  width: 250px;
+}
+
+.cc_field_small, .cc_field_medium, .cc_field_large {
+  height: 26px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.cc_send_button, .cc_cancel_button {
+  width: 100px;
+  font-size: 22px;
+}

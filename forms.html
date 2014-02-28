@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=640" />
+
+    <link rel="stylesheet" href="stylesheets/core.css" media="screen"/>
+    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)"/>
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css"/>
+
+    <script type="text/javascript" src="javascripts/modernizr.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#main_content').headsmart()
+      })
+    </script>
+    <title>HTML5-examples by ben010783</title>
+  </head>
+
+  <body>
+    <a id="forkme_banner" href="https://github.com/ben010783/html5-examples">View on GitHub</a>
+    <div class="shell">
+
+      <header>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <h1>HTML5-examples</h1>
+            <h2>HTML5 you can use!</h2>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+      </header>
+
+      <section id="downloads">
+        <span class="inner">
+          <a href="https://github.com/ben010783/html5-examples/zipball/master" class="zip"><em>download</em> .ZIP</a><a href="https://github.com/ben010783/html5-examples/tarball/master" class="tgz"><em>download</em> .TGZ</a>
+        </span>
+      </section>
+
+
+      <span class="banner-fix"></span>
+
+
+      <section id="main_content">
+<h2>Forms</h2>
+<section id="doctype">
+<h3>
+<a name="doctype" class="anchor" href="#doctype"><span class="octicon octicon-link"></span></a>Credit Card</h3>
+
+<form id="billing_form">
+	<div>
+		<label class="cc_label">First name</label>
+		<input id="cc_first_name" type="text" class="cc_field_large" name="billing_first_name" required>
+	</div>
+	<div>
+		<label class="cc_label">Last name</label>
+		<input id="cc_last_name" type="text" class="cc_field_large" name="billing_last_name" required>
+	</div>
+	<div>
+		<label class="cc_label">Email</label>
+		<input id="cc_email" type="email" class="cc_field_large" name="billing_email" required>
+	</div>
+	<div>
+		<label class="cc_label">Card number</label>
+		<input id="cc_account_number" type="text" maxlength="16" autocomplete="off" class="cc_field_large" name="billing_account_number" required>
+	</div>
+	<div>
+		<label class="cc_label">Expiration</label>
+		<input id="cc_expiration" type="month" class="cc_field_large" name="billing_expiration" required>
+		<div id="cc_logo"></div>
+	</div>
+	<div>
+		<label class="cc_label">CSC</label>
+		<input id="cc_csc" type="number" min="1" max="999" maxlength="3" class="cc_field_small" required>
+	</div>
+	<div class="billing_field_spacer">
+	</div>
+	<div>
+		<label class="cc_label">Address line 1</label>
+		<input id="cc_address_1" type="text" class="cc_field_large" name="billing_address_1" required>
+	</div>
+	<div>
+		<label class="cc_label optional_label">Address line 2</label>
+		<input id="cc_address_2" type="text" class="cc_field_large" name="billing_address_2">
+	</div>
+	<div>
+		<label class="cc_label">City</label>
+		<input id="cc_city" type="text" class="cc_field_large" name="billing_city" required>
+	</div>
+	<div>
+		<label class="cc_label">State</label>
+		<select id="cc_state" class="cc_field_small" name="billing_state" required>
+			<option selected="selected" value=""></option>
+			<option value="AK">AK</option>
+			<option value="AL">AL</option>
+			<option value="AR">AR</option>
+			<option value="AZ">AZ</option>
+			<option value="CA">CA</option>
+			<option value="CO">CO</option>
+			<option value="CT">CT</option>
+			<option value="DC">DC</option>
+			<option value="DE">DE</option>
+			<option value="FL">FL</option>
+			<option value="GA">GA</option>
+			<option value="HI">HI</option>
+			<option value="IA">IA</option>
+			<option value="ID">ID</option>
+			<option value="IL">IL</option>
+			<option value="IN">IN</option>
+			<option value="KS">KS</option>
+			<option value="KY">KY</option>
+			<option value="LA">LA</option>
+			<option value="MA">MA</option>
+			<option value="MD">MD</option>
+			<option value="ME">ME</option>
+			<option value="MI">MI</option>
+			<option value="MN">MN</option>
+			<option value="MO">MO</option>
+			<option value="MS">MS</option>
+			<option value="MT">MT</option>
+			<option value="NC">NC</option>
+			<option value="ND">ND</option>
+			<option value="NE">NE</option>
+			<option value="NH">NH</option>
+			<option value="NJ">NJ</option>
+			<option value="NM">NM</option>
+			<option value="NV">NV</option>
+			<option value="NY">NY</option>
+			<option value="OH">OH</option>
+			<option value="OK">OK</option>
+			<option value="OR">OR</option>
+			<option value="PA">PA</option>
+			<option value="RI">RI</option>
+			<option value="SC">SC</option>
+			<option value="SD">SD</option>
+			<option value="TN">TN</option>
+			<option value="TX">TX</option>
+			<option value="UT">UT</option>
+			<option value="VA">VA</option>
+			<option value="VT">VT</option>
+			<option value="WA">WA</option>
+			<option value="WI">WI</option>
+			<option value="WV">WV</option>
+			<option value="WY">WY</option>
+		</select>
+	</div>
+	<div>
+		<label class="cc_label">Zip code</label>
+		<input id="cc_zipcode" type="text" maxlength="10" class="cc_field_medium" name="billing_zipcode" required>
+	</div>
+	<div>
+		<div class="cc_label"></div>
+		<input id="cc_send_button" type="submit" class="cc_send_button" name="send" value="Send">
+		<input id="cc_cancel_button" type="submit" class="cc_cancel_button" name="cancel" value="Cancel">
+	</div>
+</form>
+
+</section>
+     </section>
+
+      <footer>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <p>this project by <a href="https://github.com/ben010783">ben010783</a> can be found on <a href="https://github.com/ben010783/html5-examples">GitHub</a></p>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+        <p>Generated with <a href="http://pages.github.com">GitHub Pages</a> using Merlot</p>
+        <span class="octocat"></span>
+      </footer>
+
+    </div>
+
+    
+  </body>
+</html>
