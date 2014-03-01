@@ -568,6 +568,10 @@ dd p:first-child {
   font-style: italic;
 }
 
+.clear {
+  clear: both;
+}
+
 .cc_label {
   width: 120px;
   display: inline-block;
@@ -597,4 +601,24 @@ dd p:first-child {
 .cc_send_button, .cc_cancel_button {
   width: 100px;
   font-size: 22px;
+}
+
+.canvas_controls {
+  float: left;
+  padding-top: 20px;
+  width: 30%;
+}
+
+.canvas_color_label {
+  display: block;
+  padding-bottom: 10px;
+}
+
+.canvas_color_picker {
+  float: right;
+}
+
+.canvas_display {
+  padding-left: 50px;
+  float: left;
 }
