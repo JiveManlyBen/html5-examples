@@ -109,6 +109,21 @@
 <p>Only one form control in a document can have the autofocus attribute and the autofocus attribute cannot be applied if the type of the input is hidden.</p>
 </section>
 
+<section id="input-list">
+<h3>
+<a name="input-list" class="anchor" href="#input-list"><span class="octicon octicon-link"></span></a>List Input Attribute</h3>
+
+<p>The list attribute suggests a list of pre-defined options to the user. The value of the list should equal the id of the datalist element in the same document. The datalist element contains a set of options that will be used in the list.</p>
+
+<pre><code>&lt;input name="drummer" list="drummers" /&gt;
+&lt;datalist id="drummers"&gt;
+	&lt;option value="Dave Grohl"&gt;
+	&lt;option value="Joey Castillo"&gt;
+	&lt;option value="Jon Theodore"&gt;
+&lt;/datalist&gt;</code></pre>
+
+</section>
+
 <section id="input-types">
 <h3>
 <a name="input-types" class="anchor" href="#input-types"><span class="octicon octicon-link"></span></a>New Input Types</h3>
