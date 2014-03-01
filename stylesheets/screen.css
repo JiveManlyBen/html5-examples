@@ -606,7 +606,7 @@ dd p:first-child {
 .canvas_controls {
   float: left;
   padding-top: 20px;
-  width: 30%;
+  width: 160px;
 }
 
 .canvas_color_label {
@@ -621,4 +621,10 @@ dd p:first-child {
 .canvas_display {
   padding-left: 50px;
   float: left;
+}
+
+.canvas_draw {
+  float: right;
+  font-size: 16px;
+  width: 160px;
 }
