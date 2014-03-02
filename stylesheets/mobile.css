@@ -512,3 +512,11 @@ dd p:first-child {
 .cc_label {
   width: 200px;
 }
+
+.canvas_controls {
+  width: 320px;
+}
+
+.canvas_draw {
+  width: 320px;
+}
