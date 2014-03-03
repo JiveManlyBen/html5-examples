@@ -1,5 +1,4 @@
 jQuery(function ($) {
-  var latitude = 0, longitude = 0;
   if ("geolocation" in navigator) {
     navigator.geolocation.getCurrentPosition(function(position) {
       $("#geo_latitude").val(position.coords.latitude);
@@ -9,8 +8,6 @@ jQuery(function ($) {
       $("#geo_longitude").val(0);
     });
   }
-  $("#geo_latitude").val(latitude);
-  $("#geo_longitude").val(longitude);
   $("#map_button").click(function() {
     $(".geo_display").empty();
     var imgSrc = "http://maps.googleapis.com/maps/api/staticmap?center=" + $("#geo_latitude").val() + "," + $("#geo_longitude").val() + "&zoom=14&size=250x250&sensor=false";
