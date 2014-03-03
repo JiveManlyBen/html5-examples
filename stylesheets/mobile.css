@@ -520,3 +520,7 @@ dd p:first-child {
 .canvas_draw {
   width: 320px;
 }
+
+.geo_controls {
+  width: 260px;
+}

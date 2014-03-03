@@ -607,13 +607,13 @@ dd p:first-child {
   font-size: 22px;
 }
 
-.canvas_controls {
+.canvas_controls, .geo_controls {
   float: left;
   padding-top: 20px;
   width: 220px;
 }
 
-.canvas_color_label {
+.canvas_color_label, .geo_label {
   display: block;
   padding-bottom: 10px;
 }
@@ -622,17 +622,27 @@ dd p:first-child {
   float: right;
 }
 
+.geo_coord {
+  float: right;
+  width: 100px;
+}
+
 .canvas_opacity_picker {
   float: right;
   width: 120px;
 }
 
 .canvas_display {
-  padding-left: 50px;
   float: left;
+  padding-left: 50px;
 }
 
-.canvas_draw {
+.geo_display {
+  float: left;
+  padding-left: 25px;
+}
+
+.canvas_draw, .show_map {
   float: right;
   font-size: 16px;
   width: 220px;
