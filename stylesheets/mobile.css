@@ -521,6 +521,19 @@ dd p:first-child {
   width: 320px;
 }
 
-.geo_controls {
-  width: 260px;
+.geo_controls, .show_map {
+  width: 270px;
+}
+
+.canvas_color_picker {
+  width: 80px;
+}
+
+.canvas_opacity_picker {
+  width: 160px;
+}
+
+.canvas_color_picker, .geo_coord {
+  font-size: 16px;
+  height:24px;
 }
