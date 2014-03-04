@@ -149,6 +149,18 @@
 <pre><code>&lt;input type="url" name="home_page" /&gt;</code></pre>
 </section>
 
+<section id="progress">
+<h3>
+<a name="progress" class="anchor" href="#progress"><span class="octicon octicon-link"></span></a>Progress</h3>
+
+<p>The <code>progress</code> element is used to show the completion progress of a task. The style of the bar varies across browsers, but the style can also be customized using CSS. The progress element has the optional attributes max and value. Max is a floating point number that indicates how much of the task must be performed for it to be considered complete.  The default value for max is 1.0. The value attribute is a floating point number that indicates the current progress of the task. If the value is not present, the progress is considered indeterminate.</p>
+
+<p>The HTML in between the progress tags is the fallback for browsers that do not support this feature.</p>
+
+<pre><code>&lt;progress max="100" value="75"&gt;75% Complete&lt;/progress&gt;</code></pre>
+
+</section>
+
 <section id="demos">
 <h3>
 <a name="demos" class="anchor" href="#demos"><span class="octicon octicon-link"></span></a>Demos</h3>
