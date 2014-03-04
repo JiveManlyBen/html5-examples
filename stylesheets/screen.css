@@ -607,7 +607,7 @@ dd p:first-child {
   font-size: 22px;
 }
 
-.canvas_controls, .geo_controls {
+.canvas_controls, .geo_controls, .progress_controls {
   float: left;
   padding-top: 20px;
   width: 220px;
@@ -646,4 +646,14 @@ dd p:first-child {
   float: right;
   font-size: 16px;
   width: 220px;
+}
+.start_progress {
+  float: left;
+  font-size: 16px;
+  width: 220px;
+}
+
+.progress_display {
+  padding-top: 20px;
+  text-align: center;
 }

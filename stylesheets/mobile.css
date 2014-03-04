@@ -521,7 +521,7 @@ dd p:first-child {
   width: 320px;
 }
 
-.geo_controls, .show_map {
+.geo_controls, .show_map, .start_progress {
   width: 270px;
 }
 
@@ -536,4 +536,9 @@ dd p:first-child {
 .canvas_color_picker, .geo_coord {
   font-size: 16px;
   height:24px;
+}
+
+.task_progress {
+  margin-left: 60px;
+  width: 200px;
 }
