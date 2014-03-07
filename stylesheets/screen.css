@@ -627,7 +627,7 @@ dd p:first-child {
   width: 100px;
 }
 
-.canvas_opacity_picker {
+.canvas_opacity_picker, .geo_zoom_picker {
   float: right;
   width: 120px;
 }

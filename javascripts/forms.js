@@ -11,7 +11,8 @@ jQuery(function ($) {
 
   $("#map_button").click(function() {
     $(".geo_display").empty();
-    var imgSrc = "http://maps.googleapis.com/maps/api/staticmap?center=" + $("#geo_latitude").val() + "," + $("#geo_longitude").val() + "&zoom=14&size=250x250&sensor=false";
+    var imgSrc = "http://maps.googleapis.com/maps/api/staticmap?center=" + $("#geo_latitude").val() + 
+      "," + $("#geo_longitude").val() + "&zoom=" + $("#geo_zoom").val() + "&size=250x250&sensor=false";
     $(".geo_display").append("<img src=\"" + imgSrc + "\" />");
   });
 
