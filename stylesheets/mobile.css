@@ -539,6 +539,7 @@ dd p:first-child {
 }
 
 .task_progress {
+  margin-bottom: 8px;
   margin-left: 60px;
-  width: 200px;
+  width: 220px;
 }
