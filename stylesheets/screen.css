@@ -620,6 +620,7 @@ dd p:first-child {
 
 .canvas_color_picker {
   float: right;
+  width: 120px;
 }
 
 .geo_coord {
