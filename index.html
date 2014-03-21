@@ -161,12 +161,53 @@
 
 </section>
 
+<section id="audio">
+<h3>
+<a name="audio" class="anchor" href="#audio"><span class="octicon octicon-link"></span></a>Audio</h3>
+
+<p>The <code>audio</code> element now allows native audio playback without the use of plugins. The src attribute defines the location of the content. This location can also be defined in a <code>source</code> element. The HTML5 spec allows multiple sources and the browser will try each source (in order) until the browser finds an audio source it can play.</p>
+
+<p>The preload attribute can have the value "none", "metadata", or "auto".  The none value does not preload the content, metadata just preloads the metadata, and auto lets the browser decide whether or not to preload the content file.</p>
+
+<p>The controls, autoplay, and loop boolean attributes define whether or not the audio should display controls, begin playing automatically, and play repeatedly, respectively.</p>
+
+<p>The muted boolean attribute indicates whether or not the audio should be initially silenced (default is false). The volume attribute indicates the playback volume of the audio. The range for volume goes from 0.0 (silent) to 1.0 (loudest).</p>
+
+<pre><code>&lt;audio controls preload="auto" autoplay&gt;
+	&lt;source src="music.mp3" /&gt;
+	&lt;source src="music.ogg" /&gt;
+	&lt;p&gt;Your browser does not support native audio.&lt;/p&gt;
+&lt;/audio&gt;</code></pre>
+
+</section>
+
+<section id="video">
+<h3>
+<a name="video" class="anchor" href="#video"><span class="octicon octicon-link"></span></a>Video</h3>
+
+<p>The <code>video</code> element now allows native video playback without needing to use plugins (like Flash). The video element simplifies the syntax for embedding videos and aims to make it easier to show videos across many browsers. The src attribute defines the location of the content. This location can also be defined in a <code>source</code> element nested in the video element.</p>
+
+<p>The (optional) height and width attributes define the height and width of the video in CSS pixels. The poster attribute is a URL indicating a poster frame to show until the user plays or seeks. If this attribute isn't specified, nothing will be displayed until the first frame of the video is available.</p>
+
+<p>The preload attribute can have the value "none", "metadata", or "auto".  The none value does not preload the content, metadata just preloads the metadata, and auto lets the browser decide whether or not to preload the content file. If the preload is not set, the default value is browser-defined.</p>
+
+<p>The controls, autoplay, and loop boolean attributes define whether or not the audio should display controls, begin playing automatically, and play repeatedly, respectively.</p>
+
+<p>The muted boolean attribute indicates whether or not the audio should be initially silenced (default is false).</p>
+
+<pre><code>&lt;video src="movie.mp4" controls width="480" height="360"&gt;	
+	&lt;p&gt;Your browser does not support native video.&lt;/p&gt;
+&lt;/video&gt;</code></pre>
+
+</section>
+
 <section id="demos">
 <h3>
 <a name="demos" class="anchor" href="#demos"><span class="octicon octicon-link"></span></a>Demos</h3>
 
 <ul>
 <li><a href="./forms.html">Forms</a></li>
+<li><a href="./multimedia.html">Multimedia</a></li>
 </ul>
 </section>
 

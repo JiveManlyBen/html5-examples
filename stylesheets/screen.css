@@ -657,3 +657,12 @@ dd p:first-child {
   padding-top: 20px;
   text-align: center;
 }
+
+
+.multi_section {
+  padding-bottom: 25px;
+}
+
+.multi_controls {
+  padding-top: 20px;
+}

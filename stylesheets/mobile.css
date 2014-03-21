@@ -543,3 +543,7 @@ dd p:first-child {
   margin-left: 60px;
   width: 220px;
 }
+
+.multi_controls {
+  padding-top: 65px;
+}
