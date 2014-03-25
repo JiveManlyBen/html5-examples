@@ -69,7 +69,7 @@
 
 <p>Generic <code>div</code> elements are usually used to structure content on a page. HTML5 introduces semantic elements that more accurately describe the content in the element. Div elements can still be used when no other suitable element exists or when an element is needed only for styling purposes or as a convenience for scripting.</p>
 
-<p>The <code>article</code> element describes a self-contained composition in a document. The article element could be used for a magazine article, news story, blog entry, or any other independent item of content. The <code>section</code> should be used for a generic document or application section. Each section should be identified with a heading (h1-h6) element.</p>
+<p>The <code>article</code> element describes a self-contained composition in a document. The article element could be used for a magazine article, news story, blog entry, or any other independent item of content. The <code>section</code> element should be used for a generic document or application section. Each section should be identified with a heading (h1-h6) element.</p>
 
 <p>The <code>header</code> section element defines a page header and typically contains the site name, logo, and the site's navigation. The <code>nav</code> section element contains the navigational links for the page.  There can be several nav sections in one page. The <code>footer</code> section element defines the page's footer and typically contains things like a copyright and legal notice. An <code>aside</code> section element defines a section that doesn't belong to the main flow (ex: information boxes and advertisements).</p>
 </section>
@@ -100,7 +100,7 @@
 <h3>
 <a name="input-autofocus" class="anchor" href="#input-autofocus"><span class="octicon octicon-link"></span></a>Autofocus Input Attribute</h3>
 
-<p>The autofocus Boolean attribute specifies which form control should have focus when a a page loads. A common practice is to set this on the form control that a user should fill out first.</p>
+<p>The autofocus Boolean attribute specifies which form control should have focus when a page loads. A common practice is to set this on the form control that a user should fill out first.</p>
 
 <pre><code>&lt;input name="first_name" type="text" autofocus /&gt;
 &lt;input name="last_name" type="text" /&gt;
@@ -113,7 +113,7 @@
 <h3>
 <a name="input-list" class="anchor" href="#input-list"><span class="octicon octicon-link"></span></a>List Input Attribute</h3>
 
-<p>The list attribute suggests a list of pre-defined options to the user. The value of the list should equal the id of the datalist element in the same document. The datalist element contains a set of options that will be used in the list.</p>
+<p>The list attribute suggests a list of predefined options to the user. The value of the list should equal the id of the datalist element in the same document. The datalist element contains a set of options that will be used in the list.</p>
 
 <pre><code>&lt;input name="drummer" list="drummers" /&gt;
 &lt;datalist id="drummers"&gt;
@@ -140,10 +140,10 @@
 <pre><code>&lt;input type="number" name="order_id" min="1" max="9999999" /&gt;</code></pre>
 
 <p>The range input type is similar to number type, but is useful for when a numeric value is within a given range and does not need an exact value. Browsers render simple slider controls rather than an input box.</p>
-<pre><code>&lt;input type="range" name"speed" min="0" max="260" /&gt;</code></pre>
+<pre><code>&lt;input type="range" name="speed" min="0" max="260" /&gt;</code></pre>
 
 <p>The tel input type is for telephone numbers.</p>
-<pre><code>&lt;input type="tel" name"phone_number" /&gt;</code></pre>
+<pre><code>&lt;input type="tel" name="phone_number" /&gt;</code></pre>
 
 <p>The url input type is for web addresses. Browsers do simple validation on this type. If the multiple attribute is used, multiple web addresses can be entered.</p>
 <pre><code>&lt;input type="url" name="home_page" /&gt;</code></pre>
