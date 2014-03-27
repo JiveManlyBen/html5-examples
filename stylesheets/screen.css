@@ -572,6 +572,10 @@ dd p:first-child {
   clear: both;
 }
 
+.billing_form {
+    padding-top: 20px;
+}
+
 .form_section {
   padding-bottom: 25px;
 }
@@ -579,8 +583,8 @@ dd p:first-child {
 .cc_label {
   width: 120px;
   display: inline-block;
-  text-align: end;
-  padding-right: 10px;
+  text-align: right;
+  margin-right: 10px;
 }
 
 .cc_field_small {
