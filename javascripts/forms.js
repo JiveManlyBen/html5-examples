@@ -1,4 +1,14 @@
 jQuery(function ($) {
+  if (Modernizr.inputtypes.date) {
+    $("#cc_expiration").show();
+	$("#cc_month").prop("required", false);
+    $("#cc_year").prop("required", false);
+  }
+  else {
+    $("#cc_month").show();
+    $("#cc_year").show();
+	$("#cc_expiration").prop("required", false);
+  }
   if ("geolocation" in navigator) {
     navigator.geolocation.getCurrentPosition(function(position) {
       $("#geo_latitude").val(position.coords.latitude);
